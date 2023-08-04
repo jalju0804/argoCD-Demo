@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+    repoURL: https://github.com/jalju0804/argoCD-Demo.git
     targetRevision: HEAD
     path: dev
   destination: 
@@ -20,4 +20,4 @@ spec:
 
     automated:
       selfHeal: true
-      prune: true
+      prune: true  
